@@ -56,7 +56,7 @@ Click the "Deploy to Azure" button to deploy Azure OpenAI to Azure Commercial.
 
 Click the "Deploy to Azure Gov" button to deploy Key Vault, App Service Plan, App Service, Cosmos DB, Document Intelligence, and Cognitive Search to Azure Gov.
 
-[![Deploy to Azure Gov](https://aka.ms/deploytoazuregovbutton)](https://portal.azure.us/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2FHJFMilMed%2Fscoopgpt%2Fmain%2Finfra%2Fmain.json)
+[![Deploy to Azure Gov](https://aka.ms/deploytoazuregovbutton)](https://portal.azure.us/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2FHJFMilMed%2Fscoopgpt%2Fmain%2Finfra%2Fmain-gov.json)
 
 ## Setup Authentication
 
