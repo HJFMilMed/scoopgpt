@@ -27,7 +27,7 @@ Benefits are:
 
 # Deploy to Azure
 
-You can provision Azure resources for the solution accelerator using either the Azure Developer CLI or the Deploy to Azure button below. Regardless of the method you chose you will still need set up an [identity provider and specify an admin user](/docs/5-add-identity.md)
+You can provision Azure resources for the solution accelerator using either the Azure Developer CLI or the Deploy to Azure buttons below. Regardless of the method you chose you will still need set up an [identity provider and specify an admin user](/docs/5-add-identity.md)
 
 ## Deployment Options
 
@@ -50,9 +50,11 @@ You can deploy the application using one of the following options:
 > **Warning**
 > This button will only create Azure resources. You will still need to deploy the application by following the [deploy to Azure section](/docs/4-deploy-to-azure.md) to build and deploy the application using GitHub actions.
 
-Click on the appropriate Deploy to Azure button to deploy the Azure resources for the application within an environment suitable for your use case.
+Click the "Deploy to Azure" button to deploy Azure OpenAI to Azure Commercial.
 
 [![Deploy to Azure](https://aka.ms/deploytoazurebutton)](https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2FHJFMilMed%2Fscoopgpt%2Fmain%2Finfra%2Fmain.json)
+
+Click the "Deploy to Azure Gov" button to deploy Key Vault, App Service Plan, App Service, Cosmos DB, Document Intelligence, and Cognitive Search to Azure Gov.
 
 [![Deploy to Azure Gov](https://aka.ms/deploytoazuregovbutton)](https://portal.azure.us/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2FHJFMilMed%2Fscoopgpt%2Fmain%2Finfra%2Fmain.json)
 
